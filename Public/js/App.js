@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const nav = document.getElementById('siteNav');
   if (!nav) return;
 
-  const TOP_VISIBLE = 120;  // px desde el top donde debe volver a verse
+  const TOP_VISIBLE = 120;  
 
   const onScroll = () => {
     const y = window.scrollY || 0;

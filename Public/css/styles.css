@@ -44,7 +44,7 @@ h1,h2,h3,h4,.brand{
   will-change: opacity, transform;
 }
 
-/* Se hace más sólido cuando avanzas */
+/* Se hace más sólido cuando se  avanzas */
 .navbar.nav-solid{
   background: rgba(255,255,255,.96);
   backdrop-filter: saturate(140%) blur(6px);
