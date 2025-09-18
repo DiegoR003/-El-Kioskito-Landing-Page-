@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const onScroll = () => {
     const y = window.scrollY || 0;
 
-    // Fondo más sólido apenas te mueves
+    // Fondo más sólido apenas el usuario se mueva
     if (y > 8) nav.classList.add('nav-solid');
     else       nav.classList.remove('nav-solid');
 
@@ -102,5 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll(); // estado inicial
 });
+
 
 
